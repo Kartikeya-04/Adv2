@@ -1,0 +1,84 @@
+.second-el{
+    
+    height:98vh;
+    width:100%;
+  padding:150px;
+  padding-top:35px;
+  
+
+
+}
+img{
+  border:10px solid  black;
+
+
+}
+
+.head{
+
+    background:purple;
+
+}
+.Title{
+    padding-right:30px;
+    font-size:4rem;
+    font-family: 'Archivo Black', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+/* color:white; */
+}
+.row{
+    background-color: aliceblue;
+}
+
+.my-0{
+    font-size:3rem;
+font-family: 'Archivo Black', sans-serif;
+
+
+color:black;
+
+
+
+}
+.fw-normal{
+    font-size:3rem;
+}
+
+
+
+.btnn{
+    background-color: aliceblue;
+}
+.Fadee{
+    margin-top:10px;
+}
+
+
+@media(max-width:900px){
+    .second-el{
+        padding:0px;
+        padding-top:0px;
+       
+    }
+    .Title{
+        font-size:1rem;
+    }
+  .my-0{
+    font-size:2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+  }
+
+  @media(max-width:840px) and(min-width:575px){
+
+    .second-el{
+        /* padding:0px; */
+        margin-left:40px;
+       
+    }
+  }
+}
